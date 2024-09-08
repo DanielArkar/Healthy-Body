@@ -54,6 +54,9 @@
               </ul>
             </span>
           </li>
+          <li><a href="<?=ROOT?>/signup" class="nav-link px-2  <?=$url[0] =='signup' ? 'link-primary':'link-dark'?>">Signup</a></li>
+          <li><a href="<?=ROOT?>/login" class="nav-link px-2  <?=$url[0] =='login' ? 'link-primary':'link-dark'?>">Login</a></li>
+
         </ul>
 
         <?php if(logged_in()):?>

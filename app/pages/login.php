@@ -102,7 +102,7 @@
       <img class="mb-4 rounded-circle shadow" src="<?=ROOT?>/assets/images/healthybodylogo.jpg" alt="" width="92" height="92" style="object-fit: cover;">
     </a>
   <form method="post">
-    <h1 class="h3 mb-3 fw-normal">Sign in</h1>
+    <h1 class="h3 mb-3 fw-normal">Login</h1>
 
       <?php if (!empty($errors['email'])):?>
         <div class="alert alert-danger"><?=$errors['email']?></div>

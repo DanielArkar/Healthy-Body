@@ -11,7 +11,7 @@
  
 	    <div class="form-floating">
 	      <input value="<?=old_value('category')?>" name="category" type="text" class="form-control mb-2" id="floatingInput" placeholder="Category">
-	      <label for="floatingInput">Username</label>
+	      <label for="floatingInput">Add New</label>
 	    </div>
 	      <?php if(!empty($errors['category'])):?>
 	      <div class="text-danger"><?=$errors['category']?></div>
